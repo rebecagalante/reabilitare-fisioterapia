@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace ReabilitareFisioterapia.Controllers
 {
-    public class HomeController : Controller
+    public class SobreController : Controller
     {
+        // GET: Sobre
         public ActionResult Index()
         {
             return View();
