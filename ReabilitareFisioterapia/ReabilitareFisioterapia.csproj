@@ -135,7 +135,7 @@
     <Compile Include="Controllers\EspecialidadeController.cs" />
     <Compile Include="Controllers\FaleConoscoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\SobreController.cs" />
+    <Compile Include="Controllers\QuemSomosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -148,6 +148,14 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\acupuntura.jpg" />
+    <Content Include="Content\Images\chibi_sunako_logo.jpg" />
+    <Content Include="Content\Images\com_bola_de_pilates.png" />
+    <Content Include="Content\Images\dor_ombro.jpg" />
+    <Content Include="Content\Images\enrolando_tatami.jpg" />
+    <Content Include="Content\Images\logo_reabilitare.jpg" />
+    <Content Include="Content\Images\manipulação_joelho.jpg" />
+    <Content Include="Content\Images\terapia_manual_ombro.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -203,7 +211,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Sobre\Index.cshtml" />
+    <Content Include="Views\QuemSomos\Index.cshtml" />
     <Content Include="Views\FaleConosco\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
@@ -215,13 +223,13 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Convenio\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Agenda\" />
     <Folder Include="Views\Artigos\" />
-    <Folder Include="Views\Convenio\" />
     <Folder Include="Views\Equipe\" />
     <Folder Include="Views\Especialidades\" />
   </ItemGroup>
