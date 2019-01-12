@@ -74,6 +74,12 @@
         width: 50%;
     }
 
+.convenio-logo {
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+
 .display-4 {
     font-size: 240%;
 }

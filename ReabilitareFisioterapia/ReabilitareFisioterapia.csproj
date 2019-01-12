@@ -155,6 +155,8 @@
     <Content Include="Content\Images\enrolando_tatami.jpg" />
     <Content Include="Content\Images\logo_reabilitare.jpg" />
     <Content Include="Content\Images\manipulação_joelho.jpg" />
+    <Content Include="Content\Images\pro_saude_tjdft.jpg" />
+    <Content Include="Content\Images\saude_caixa_logomarca.jpg" />
     <Content Include="Content\Images\terapia_manual_ombro.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
