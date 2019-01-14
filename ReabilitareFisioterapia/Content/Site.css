@@ -1,10 +1,11 @@
 ﻿.navbar {
     padding: 0.8rem;
     text-align: center;
+    background-color: white;
 }
 
-.navbar-nav li {
-    padding-right: 20px;
+.navbar-brand img {
+    width: 30px;
 }
 
 .nav-link {
@@ -14,6 +15,19 @@
 .navbar-toggler {
     border: 0;
 }
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+    .navbar-nav li > a {
+        color: #3D5F61 !important;
+    }
+
+    .navbar-nav li a:hover {
+        color: white !important;
+        background-color: #3D5F61 !important;
+    }
 
 .carousel-inner img {
     width: 100%;
@@ -90,40 +104,6 @@ hr {
     margin-top: .3rem;
 }
 
-.fa-code {
-    color: #e54d26;
-}
-
-.fa-bold {
-    color: #563d7c;
-}
-
-.fa-css3 {
-    color: #2163af;
-}
-
-.fa-code, .fa-bold, .fa-css3 {
-    font-size: 3rem;
-    margin: 1rem;
-}
-
-.social a {
-    font-size: 3rem;
-    padding: 3rem;
-}
-
-.fa-facebook {
-    color: #3b5998;
-}
-
-.fa-instagram {
-    color: #517fa4;
-}
-
-    .fa-facebook:hover, .fa-instagram:hover {
-        color: #d5d5d5;
-    }
-
 .parallax {
     background-image: url(/Content/Images/enrolando_tatami.jpg);
     height: 300px;
@@ -142,7 +122,7 @@ hr {
     }
 
 footer {
-    background-color: #3f3f3f;
+    background-color: #3D5F61;
     color: #d5d5d5;
     padding-top: 2rem;
 }
@@ -161,15 +141,52 @@ hr.light-100 {
     border-top: 1px solid #d5d5d5;
     width: 100%;
     margin-top: .8rem;
+    padding-bottom: 1rem;
 }
 
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {
-}*/
+.social a {
+    font-size: 3rem;
+    padding: 3rem;
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {
-}*/
+.fa-facebook, .fa-instagram {
+    color: #d5d5d5;
+}
+
+    .fa-facebook:hover, .fa-instagram:hover {
+        color: #a3a3a3;
+    }
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/ 
+@media only screen and (min-width: 600px) {
+
+    .carousel-inner img {
+        width: 100%;
+        height: 570px !important;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+        .carousel-caption h2 {
+            font-size: 500%;
+            text-shadow: 1px 1px 15px #000;
+        }
+
+        .carousel-caption h6 {
+            font-size: 200%;
+            text-shadow: 1px 1px 15px #000;
+            padding-bottom: 1em;
+        }
+
+        .carousel-caption a {
+            font-size: 150%;
+        }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 /*@media only screen and (min-width: 768px) {
@@ -181,58 +198,4 @@ hr.light-100 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /*@media only screen and (min-width: 1200px) {
-}*/
-
-
-
-
-/*header {
-    align-items: center;
-    display: flex;
-    font-size: 18px;
-    height: 100vh;
-    justify-content: center;
-    overflow: hidden;
-    perspective: 100px;
-    position: relative;
-    text-align: center;
-    transform-style: preserve-3d;
-}
-
-    header:before {
-        background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8)), url(Images/terapia_manual_ombro.jpg) no-repeat bottom;
-        background-size: cover;
-        content: "";
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        animation: fade-slide-down 1s .2s ease-out forwards;
-    }
-
-@keyframes fade-slide-down {
-    0% {
-        opacity: 0;
-        transform: translateY(-4rem);
-    }
-
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
-
-@keyframes pop-in {
-    0% {
-        opacity: 0;
-        transform: translateY(-4rem) scale(.8);
-    }
-
-    100% {
-        opacity: 1;
-        transform: none;
-    }
 }*/
