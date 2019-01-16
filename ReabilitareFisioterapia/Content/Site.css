@@ -38,16 +38,15 @@
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
+    text-shadow: 1px 1px 15px #000;
 }
 
     .carousel-caption h2 {
         font-size: 150%;
-        text-shadow: 1px 1px 15px #000;
     }
 
     .carousel-caption h6 {
         font-size: 100%;
-        text-shadow: 1px 1px 15px #000;
         padding-bottom: 1em;
     }
 
@@ -55,22 +54,60 @@
         font-size: 90%;
     }
 
-.jumbotron {
-    padding: 2rem;
-    margin-bottom: 0;
+.slide-item-3 img {
+    opacity: 0.5;
 }
+
+.slide-caption-1 {
+    color: yellow;
+}
+
+.slide-caption-3 {
+    color: #3D5F61;
+}
+
+    .slide-caption-3 h2,
+    .slide-caption-3 h6 {
+        text-shadow: 1px 1px 1px white !important;
+    }
 
 .padding {
     padding-bottom: 2rem;
     padding-left: 0;
 }
 
-.especialidades {
-    background-image: url(/Content/Images/enrolando_tatami.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-top: 2rem;
+.jumbotron {
+    padding: 2rem;
+    margin-bottom: 0;
 }
+
+.descricao-btn:hover {
+    border-color: #3D5F61;
+    background-color: #3D5F61;
+}
+
+.especialidades {
+    position: relative;
+}
+
+    .especialidades .img {
+        background: url(/Content/Images/enrolando_tatami.jpg);
+        opacity: 0.2;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .especialidades .container {
+        position: relative;
+        z-index: 2;
+    }
 
     .especialidades hr {
         width: 65%;
@@ -105,9 +142,8 @@ hr {
 }
 
 .parallax {
-    background-image: url(/Content/Images/enrolando_tatami.jpg);
+    background-image: url(/Content/Images/sala_pilates.jpg);
     height: 300px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +193,7 @@ hr.light-100 {
         color: #a3a3a3;
     }
 
-/* Small devices (portrait tablets and large phones, 600px and up)*/ 
+/* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {
 
     .carousel-inner img {
@@ -172,20 +208,32 @@ hr.light-100 {
     }
 
         .carousel-caption h2 {
-            font-size: 500%;
+            font-size: 400%;
             text-shadow: 1px 1px 15px #000;
         }
 
         .carousel-caption h6 {
             font-size: 200%;
             text-shadow: 1px 1px 15px #000;
-            padding-bottom: 1em;
         }
 
         .carousel-caption a {
             font-size: 150%;
         }
 
+
+    .parallax .container {
+        padding-top: 2rem;
+    }
+
+    .parallax h2 {
+        font-size: 300%;
+    }
+
+    .parallax p,
+    .parallax a {
+        font-size: 150%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
