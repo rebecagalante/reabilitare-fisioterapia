@@ -198,13 +198,12 @@ hr.light-100 {
 
     .carousel-inner img {
         width: 100%;
-        height: 570px !important;
+        height: 450px !important;
     }
 
     .carousel-caption {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
     }
 
         .carousel-caption h2 {
@@ -220,6 +219,15 @@ hr.light-100 {
         .carousel-caption a {
             font-size: 150%;
         }
+
+    .slide-caption-2 {
+        transform: translateY(-60%);
+    }
+
+    .slide-caption-1,
+    .slide-caption-3 {
+        transform: translateY(-70%);
+    }
 
 
     .parallax .container {
