@@ -149,10 +149,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\acupuntura.jpg" />
-    <Content Include="Content\Images\chibi_sunako_logo.jpg" />
     <Content Include="Content\Images\com_bola_de_pilates.png" />
     <Content Include="Content\Images\dor_ombro.jpg" />
     <Content Include="Content\Images\enrolando_tatami.jpg" />
+    <Content Include="Content\Images\Funcionarios\Guido_Agner.jpg" />
+    <Content Include="Content\Images\Funcionarios\Leticia_Souza.jpg" />
+    <Content Include="Content\Images\Funcionarios\Marcos_Piantino.jpg" />
+    <Content Include="Content\Images\Funcionarios\Mariana_Barros.jpg" />
+    <Content Include="Content\Images\Funcionarios\Rebeca_Drudi.jpg" />
     <Content Include="Content\Images\logo com fundo transparente.png" />
     <Content Include="Content\Images\logo_reabilitare.jpg" />
     <Content Include="Content\Images\manipulação_joelho.jpg" />
