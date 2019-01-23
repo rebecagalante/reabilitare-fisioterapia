@@ -1,4 +1,9 @@
-﻿.navbar {
+﻿@font-face {
+    font-family: Economica;
+    src: local(Economica-Regular-OTF.otf), url(Fonts/Economica-Regular-OTF.otf);
+}
+
+.navbar {
     padding: 0.8rem;
     text-align: center;
     background-color: white;
@@ -197,7 +202,7 @@ hr.light-100 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #5e9093;
+    background: #3D5F61;
     width: 50px;
     height: 50px;
     display: block;
@@ -224,9 +229,54 @@ hr.light-100 {
         transition: all 0.3s ease;
     }
 
-    #return-to-top:hover i {
-        top: 5px;
+    #return-to-top:hover {
+        background: #5e9093;
     }
+
+.equipe {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .equipe .descricao {
+        width: 75%;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: Economica, sans-serif;
+    }
+
+        .equipe .descricao span {
+            font-weight: bold;
+        }
+
+    .equipe .descricao-direita {
+        float: right;
+    }
+
+    .equipe .descricao-esquerda {
+        float: left;
+    }
+
+    .equipe .foto {
+        width: 20%;
+    }
+
+    .equipe .foto-direita {
+        float: right;
+    }
+
+    .equipe .foto-esquerda {
+        float: left;
+    }
+
+    .equipe img {
+        width: 100%;
+    }
+
+.funcionario {
+    height: 200px;
+    margin: 3em auto 0;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {

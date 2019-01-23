@@ -2,62 +2,159 @@
     ViewBag.Title = "Quem Somos";
 }
 
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h2 class="display-4">Conheça a Nossa Equipe</h2>
+<div class="container equipe">
+
+    <div class="funcionario">
+
+        <div class="foto foto-esquerda">
+
+            <img src="~/Content/Images/Funcionarios/Marcos_Piantino.jpg" alt="Marcos Piantino" />
+
         </div>
-        <hr />
+
+        <div class="descricao descricao-direita">
+
+            <span>Marcos Piantino</span>
+
+            <p>Especialista em Fisioterapia Ortopédica, Funcional e Esportiva, Pilates, Conceito Mulligan, Crochetagem, Estabilização Segmentar Vertebral e Bandagem Funcional e Rígida</p>
+
+        </div>
+
     </div>
+
+    <div class="funcionario">
+
+        <div class="foto foto-direita">
+
+            <img src="~/Content/Images/Funcionarios/Guido_Agner.jpg" alt="Guido Agner" />
+
+        </div>
+
+        <div class="descricao descricao-esquerda">
+
+            <span>Guido Agner</span>
+
+            <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural, Dry Needling, Abordagem Biopsicossocial, Crochetagem e Liberação Miofacial</p>
+
+        </div>
+
+    </div>
+
+    <div class="funcionario">
+
+        <div class="foto foto-esquerda">
+
+            <img src="~/Content/Images/Funcionarios/Mariana_Barros.jpg" alt="Mariana Barros" />
+
+        </div>
+
+        <div class="descricao descricao-direita">
+
+            <span>Mariana Barros</span>
+
+            <p>Conceito Mulligan, Dry Needling e Abordagem Biopsicossocial</p>
+
+        </div>
+
+    </div>
+
+    <div class="funcionario">
+
+        <div class="foto foto-direita">
+
+            <img src="~/Content/Images/Funcionarios/Leticia_Souza.jpg" alt="Letícia Sousa" />
+
+        </div>
+
+        <div class="descricao descricao-esquerda">
+
+            <span>Letícia Souza</span>
+
+            <p>Ortopedia Esportiva e Funcional, Dry Needling e Liberação Miofacial</p>
+
+        </div>
+
+    </div>
+
+    <div class="funcionario">
+
+        <div class="foto foto-esquerda">
+
+            <img src="~/Content/Images/Funcionarios/Rebeca_Drudi.jpg" alt="Rebeca Drudi" />
+
+        </div>
+
+        <div class="descricao descricao-direita">
+
+            <span>Rebeca Drudi</span>
+
+            <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural e Dry Needling</p>
+
+        </div>
+
+    </div>
+
 </div>
 
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/Funcionarios/Marcos_Piantino.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Marcos Piantino</h4>
-                    <p>Especialista em Fisioterapia Ortopédica, Funcional e Esportiva, Pilates, Conceito Mulligan, Crochetagem, Estabilização Segmentar Vertebral e Bandagem Funcional e Rígida</p>
-                </div>
+
+
+@*
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Conheça a Nossa Equipe</h2>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/Funcionarios/Guido_Agner.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Guido Agner</h4>
-                    <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural, Dry Needling, Abordagem Biopsicossocial, Crochetagem e Liberação Miofacial</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/Funcionarios/Leticia_Souza.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Letícia Souza</h4>
-                    <p>Ortopedia Esportiva e Funcional, Dry Needling e Liberação Miofacial</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/Funcionarios/Mariana_Barros.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Mariana Barros</h4>
-                    <p>Conceito Mulligan, Dry Needling e Abordagem Biopsicossocial</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/Funcionarios/Rebeca_Drudi.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Rebeca Drudi</h4>
-                    <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural e Dry Needling</p>
-                </div>
-            </div>
+            <hr />
         </div>
     </div>
-</div>
+
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Marcos_Piantino.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Marcos Piantino</h4>
+                        <p>Especialista em Fisioterapia Ortopédica, Funcional e Esportiva, Pilates, Conceito Mulligan, Crochetagem, Estabilização Segmentar Vertebral e Bandagem Funcional e Rígida</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Guido_Agner.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Guido Agner</h4>
+                        <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural, Dry Needling, Abordagem Biopsicossocial, Crochetagem e Liberação Miofacial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Leticia_Souza.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Letícia Souza</h4>
+                        <p>Ortopedia Esportiva e Funcional, Dry Needling e Liberação Miofacial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Mariana_Barros.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Mariana Barros</h4>
+                        <p>Conceito Mulligan, Dry Needling e Abordagem Biopsicossocial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Rebeca_Drudi.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Rebeca Drudi</h4>
+                        <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural e Dry Needling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
 
