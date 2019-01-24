@@ -1,0 +1,64 @@
+﻿.equipe {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .equipe .foto {
+        width: 50%;
+        margin: 1em auto;
+    }
+
+        .equipe .foto img {
+            width: 100%;
+        }
+
+    .equipe .descricao {
+        width: 100%;
+        text-align: center;
+        font-family: Economica, sans-serif;
+    }
+
+        .equipe .descricao span {
+            font-weight: bold;
+        }
+
+.funcionario {
+    margin: 3em auto 0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+
+        .equipe .foto {
+            width: 20%;
+        }
+
+        .equipe .foto-direita {
+            float: right;
+        }
+
+        .equipe .foto-esquerda {
+            float: left;
+        }
+
+        .equipe img {
+            width: 100%;
+        }
+
+        .equipe .descricao {
+            width: 75%;
+            font-size: 1.5em;
+        }
+
+        .equipe .descricao-direita {
+            float: right;
+        }
+
+        .equipe .descricao-esquerda {
+            float: left;
+        }
+
+    .funcionario {
+        height: 200px;
+    }
+}

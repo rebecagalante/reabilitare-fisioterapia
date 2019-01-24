@@ -164,6 +164,7 @@
     <Content Include="Content\Images\sala_pilates.jpg" />
     <Content Include="Content\Images\saude_caixa_logomarca.jpg" />
     <Content Include="Content\Images\terapia_manual_ombro.jpg" />
+    <Content Include="Content\QuemSomos.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

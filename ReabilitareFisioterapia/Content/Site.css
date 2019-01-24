@@ -233,51 +233,6 @@ hr.light-100 {
         background: #5e9093;
     }
 
-.equipe {
-    width: 80%;
-    margin: 0 auto;
-}
-
-    .equipe .descricao {
-        width: 75%;
-        text-align: center;
-        font-size: 1.5em;
-        font-family: Economica, sans-serif;
-    }
-
-        .equipe .descricao span {
-            font-weight: bold;
-        }
-
-    .equipe .descricao-direita {
-        float: right;
-    }
-
-    .equipe .descricao-esquerda {
-        float: left;
-    }
-
-    .equipe .foto {
-        width: 20%;
-    }
-
-    .equipe .foto-direita {
-        float: right;
-    }
-
-    .equipe .foto-esquerda {
-        float: left;
-    }
-
-    .equipe img {
-        width: 100%;
-    }
-
-.funcionario {
-    height: 200px;
-    margin: 3em auto 0;
-}
-
 /* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {
 
