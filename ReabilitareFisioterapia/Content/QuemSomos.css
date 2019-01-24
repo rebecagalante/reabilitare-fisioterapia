@@ -26,39 +26,45 @@
     margin: 3em auto 0;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up)*/
-@media only screen and (min-width: 600px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .equipe .foto {
+        width: 20%;
+    }
 
-        .equipe .foto {
-            width: 20%;
-        }
+    .equipe .foto-direita {
+        float: right;
+    }
 
-        .equipe .foto-direita {
-            float: right;
-        }
+    .equipe .foto-esquerda {
+        float: left;
+    }
 
-        .equipe .foto-esquerda {
-            float: left;
-        }
+    .equipe img {
+        width: 100%;
+    }
 
-        .equipe img {
-            width: 100%;
-        }
+    .equipe .descricao {
+        width: 75%;
+        font-size: 1em;
+    }
 
-        .equipe .descricao {
-            width: 75%;
-            font-size: 1.5em;
-        }
+    .equipe .descricao-direita {
+        float: right;
+    }
 
-        .equipe .descricao-direita {
-            float: right;
-        }
-
-        .equipe .descricao-esquerda {
-            float: left;
-        }
+    .equipe .descricao-esquerda {
+        float: left;
+    }
 
     .funcionario {
         height: 200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .equipe .descricao {
+        font-size: 1.5em;
     }
 }
