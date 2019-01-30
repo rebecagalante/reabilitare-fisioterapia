@@ -21,15 +21,14 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">@Html.ActionLink("Quem Somos", "Index", "QuemSomos", null, new { @class = "nav-link" })</li>
-                    <li class="nav-item">@Html.ActionLink("Especialidades", "Index", "Especialidade", null, new { @class = "nav-link" })</li>
-                    <li class="nav-item">@Html.ActionLink("Convênios", "Index", "Convenio", null, new { @class = "nav-link" })</li>
-                    <li class="nav-item">@Html.ActionLink("Fale Conosco", "Index", "Home", null, new { @class = "nav-link" })</li>
+                    <li class="nav-item" id="QuemSomos">@Html.ActionLink("Quem Somos", "Index", "QuemSomos", null, new { @class = "nav-link" })</li>
+                    <li class="nav-item" id="Especialidades">@Html.ActionLink("Especialidades", "Index", "Especialidade", null, new { @class = "nav-link" })</li>
+                    <li class="nav-item" id="Convenios">@Html.ActionLink("Convênios", "Index", "Convenio", null, new { @class = "nav-link" })</li>
+                    @*<li class="nav-item" id="FaleConosco">@Html.ActionLink("Fale Conosco", "Index", "Home", null, new { @class = "nav-link" })</li>*@
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="">
         @RenderBody()
         <footer>
@@ -38,8 +37,8 @@
                     <div class="col-md-3">
                         <img src="~/Content/Images/logo_reabilitare.jpg" alt="Alternate Text" />
                         <hr class="light" />
-                        <p>(61) 3548-8207</p>
                         <p><i class="fab fa-whatsapp"></i> (61) 99802-7634</p>
+                        <p>(61) 3548-8207</p>
                         <p>SMDB Conjunto 12, Bloco A</p>
                         <p>Sala 212 - Lago Sul, Brasília</p>
                         <p>CEP 71680120</p>
@@ -77,13 +76,11 @@
         </footer>
         <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
-
 <script>
 
     $(window).scroll(function () {

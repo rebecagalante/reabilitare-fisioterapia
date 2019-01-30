@@ -128,12 +128,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AgendaController.cs" />
-    <Compile Include="Controllers\ArtigoController.cs" />
     <Compile Include="Controllers\ConvenioController.cs" />
-    <Compile Include="Controllers\EquipeController.cs" />
     <Compile Include="Controllers\EspecialidadeController.cs" />
-    <Compile Include="Controllers\FaleConoscoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QuemSomosController.cs" />
     <Compile Include="Global.asax.cs">
@@ -148,10 +144,17 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Home.css" />
     <Content Include="Content\Images\acupuntura.jpg" />
     <Content Include="Content\Images\com_bola_de_pilates.png" />
     <Content Include="Content\Images\dor_ombro.jpg" />
     <Content Include="Content\Images\enrolando_tatami.jpg" />
+    <Content Include="Content\Images\Especialidades\acupuntura_icon.png" />
+    <Content Include="Content\Images\Especialidades\fisioterapia_icon.png" />
+    <Content Include="Content\Images\Especialidades\osteopatia_icon.png" />
+    <Content Include="Content\Images\Especialidades\pilates_icon.png" />
+    <Content Include="Content\Images\Especialidades\rpg_icon.png" />
+    <Content Include="Content\Images\Especialidades\terapia_manual_icon.png" />
     <Content Include="Content\Images\Funcionarios\Guido_Agner.jpg" />
     <Content Include="Content\Images\Funcionarios\Leticia_Souza.jpg" />
     <Content Include="Content\Images\Funcionarios\Marcos_Piantino.jpg" />
@@ -190,7 +193,8 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Content\Fonts\Economica-Regular-OTF.otf" />
+    <Content Include="Content\Fonts\Decker.ttf" />
+    <Content Include="Content\Fonts\Roboto-Condensed.ttf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -222,7 +226,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\QuemSomos\Index.cshtml" />
-    <Content Include="Views\FaleConosco\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -234,14 +237,11 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Convenio\Index.cshtml" />
+    <Content Include="Views\Especialidade\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Agenda\" />
-    <Folder Include="Views\Artigos\" />
-    <Folder Include="Views\Equipe\" />
-    <Folder Include="Views\Especialidades\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

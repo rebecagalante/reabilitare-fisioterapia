@@ -1,7 +1,32 @@
-﻿@font-face {
-    font-family: Economica;
-    src: local(Economica-Regular-OTF.otf), url(Fonts/Economica-Regular-OTF.otf);
+﻿﻿@font-face {
+    font-family: Decker;
+    src: url(Fonts/Decker.ttf);
 }
+
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/Roboto-Condensed.ttf);
+}
+
+body {
+    font-family: Decker, sans-serif;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #5e9093;
+    color: #fff;
+    padding: 5px 25px;
+}
+
+    .btn:hover {
+        border-color: #3D5F61;
+        background-color: #3D5F61;
+    }
 
 .navbar {
     padding: 0.8rem;
@@ -34,133 +59,9 @@
         background-color: #3D5F61 !important;
     }
 
-.carousel-inner img {
-    width: 100%;
-    height: 300px !important;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    text-shadow: 1px 1px 15px #000;
-}
-
-    .carousel-caption h2 {
-        font-size: 150%;
-    }
-
-    .carousel-caption h6 {
-        font-size: 100%;
-        padding-bottom: 1em;
-    }
-
-    .carousel-caption a {
-        font-size: 90%;
-    }
-
-.slide-item-3 img {
-    opacity: 0.5;
-}
-
-.slide-caption-1 {
-    color: yellow;
-}
-
-.slide-caption-3 {
-    color: #3D5F61;
-}
-
-    .slide-caption-3 h2,
-    .slide-caption-3 h6 {
-        text-shadow: 1px 1px 1px white !important;
-    }
-
 .padding {
     padding-bottom: 2rem;
-    padding-left: 0;
 }
-
-.jumbotron {
-    padding: 2rem;
-    margin-bottom: 0;
-}
-
-.descricao-btn:hover {
-    border-color: #3D5F61;
-    background-color: #3D5F61;
-}
-
-.especialidades {
-    position: relative;
-}
-
-    .especialidades .img {
-        background: url(/Content/Images/enrolando_tatami.jpg);
-        opacity: 0.2;
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 0;
-    }
-
-    .especialidades .container {
-        position: relative;
-        z-index: 2;
-    }
-
-    .especialidades hr {
-        width: 65%;
-    }
-
-    .especialidades ul {
-        padding-left: 30%;
-    }
-
-.convenios {
-    padding-top: 2rem;
-}
-
-    .convenios hr {
-        width: 50%;
-    }
-
-.convenio-logo {
-    width: 50%;
-    padding-bottom: 3rem;
-}
-
-
-.display-4 {
-    font-size: 240%;
-}
-
-hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-}
-
-.parallax {
-    background-image: url(/Content/Images/sala_pilates.jpg);
-    height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: 1px 1px 1px #000;
-    font-weight: 500;
-    color: #d5d5d5;
-}
-
-    .parallax p {
-        padding-bottom: 1em;
-    }
 
 footer {
     background-color: #3D5F61;
@@ -203,8 +104,8 @@ hr.light-100 {
     bottom: 20px;
     right: 20px;
     background: #3D5F61;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: block;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
@@ -220,9 +121,9 @@ hr.light-100 {
         color: #fff;
         margin: 0;
         position: relative;
-        left: 16px;
-        top: 13px;
-        font-size: 19px;
+        left: 13px;
+        top: 7px;
+        font-size: 16px;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
@@ -241,52 +142,16 @@ hr.light-100 {
         width: 200px;
     }
 
-    .carousel-inner img {
-        width: 100%;
-        height: 430px !important;
+    #return-to-top {
+        width: 50px;
+        height: 50px;
     }
 
-    .carousel-caption {
-        position: absolute;
-        top: 50%;
-    }
-
-        .carousel-caption h2 {
-            font-size: 400%;
-            text-shadow: 1px 1px 15px #000;
+        #return-to-top i {
+            left: 16px;
+            top: 13px;
+            font-size: 19px;
         }
-
-        .carousel-caption h6 {
-            font-size: 200%;
-            text-shadow: 1px 1px 15px #000;
-        }
-
-        .carousel-caption a {
-            font-size: 150%;
-        }
-
-    .slide-caption-2 {
-        transform: translateY(-60%);
-    }
-
-    .slide-caption-1,
-    .slide-caption-3 {
-        transform: translateY(-70%);
-    }
-
-
-    .parallax .container {
-        padding-top: 2rem;
-    }
-
-    .parallax h2 {
-        font-size: 300%;
-    }
-
-    .parallax p,
-    .parallax a {
-        font-size: 150%;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
