@@ -24,7 +24,7 @@
 }
 
     .slide-item-1 img,
-    .slide-item-3 img {
+    .slide-item-2 img {
         opacity: 0.5;
     }
 
@@ -32,12 +32,12 @@
     color: #dcdc04;
 }
 
-.slide-caption-3 {
+.slide-caption-2 {
     color: #3D5F61;
 }
 
-    .slide-caption-3 h2,
-    .slide-caption-3 h6 {
+    .slide-caption-2 h2,
+    .slide-caption-2 h6 {
         text-shadow: 1px 1px 1px white !important;
     }
 
@@ -136,12 +136,8 @@
             font-size: 140%;
         }
 
-    .slide-caption-2 {
-        transform: translateY(-60%);
-    }
-
     .slide-caption-1,
-    .slide-caption-3 {
+    .slide-caption-2 {
         transform: translateY(-70%);
     }
 
@@ -156,8 +152,7 @@
 
 @media only screen and (min-width: 1200px) {
     .carousel-inner img {
-        /*height: 880px !important;*/
-        height: 500px !important;
+        height: 550px !important;
     }
 
     .especialidades h2 {
