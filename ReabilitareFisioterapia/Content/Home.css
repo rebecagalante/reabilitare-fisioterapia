@@ -73,7 +73,7 @@
 
 .descritivo {
     position: relative;
-    height: 400px;
+    height: 450px;
     padding: 2rem;
     margin-bottom: 0;
 }
@@ -145,6 +145,10 @@
         transform: translateY(-70%);
     }
 
+    .descritivo .container {
+        top: 20%;
+    }
+
     .convenio-logo {
         width: 50%;
     }
@@ -167,10 +171,6 @@
     .especialidade-descricao {
         width: 100%;
         font-size: 110%;
-    }
-
-    .descritivo .container {
-        top: 20%;
     }
 
     .descritivo h2 {
