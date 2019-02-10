@@ -73,7 +73,7 @@
 
 .descritivo {
     position: relative;
-    height: 450px;
+    height: 400px;
     padding: 2rem;
     margin-bottom: 0;
 }
@@ -95,6 +95,7 @@
     .descritivo .container {
         position: relative;
         z-index: 2;
+        padding: 0;
     }
 
     .descritivo h2 {
@@ -110,7 +111,6 @@
     padding-bottom: 3rem;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {
 
     .carousel-inner img {
@@ -123,12 +123,12 @@
     }
 
         .carousel-caption h2 {
-            font-size: 400%;
+            font-size: 200%;
             text-shadow: 1px 1px 15px #000;
         }
 
         .carousel-caption h6 {
-            font-size: 200%;
+            font-size: 100%;
             text-shadow: 1px 1px 15px #000;
         }
 
@@ -136,13 +136,21 @@
             font-size: 140%;
         }
 
-    .slide-caption-1,
     .slide-caption-2 {
+        transform: translateY(-60%);
+    }
+
+    .slide-caption-1,
+    .slide-caption-3 {
         transform: translateY(-70%);
     }
 
-    .descritivo .container {
-        top: 20%;
+    .especialidade-icone {
+        width: 15%;
+    }
+
+    .descritivo {
+        height: 330px;
     }
 
     .convenio-logo {
@@ -150,13 +158,56 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    .carousel-inner img {
-        height: 550px !important;
+@media only screen and (min-width: 768px) {
+
+    h2 {
+        font-size: 300%;
     }
 
-    .especialidades h2 {
+    .carousel-caption h2 {
+        font-size: 300%;
+    }
+
+    .carousel-caption h6 {
+        font-size: 150%;
+    }
+
+    .especialidade-icone {
+        width: 10%;
+    }
+
+    .descritivo .container {
+        top: 10%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .especialidade-icone {
+        width: 20%;
+    }
+
+    .descritivo .container {
+        top: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    h2 {
         font-size: 400%;
+    }
+
+    .carousel-inner img {
+        height: 500px !important;
+    }
+
+    .carousel-caption h2 {
+        font-size: 400%;
+    }
+
+    .carousel-caption h6 {
+        font-size: 200%;
     }
 
     .especialidade-titulo {
@@ -168,22 +219,26 @@
         font-size: 110%;
     }
 
-    .descritivo h2 {
-        font-size: 300%;
+    .descritivo {
+        height: 400px;
     }
 
-    .descritivo p {
-        padding-bottom: 1em;
-        font-weight: 400;
-    }
+        .descritivo .container {
+            top: 20%;
+        }
 
-    .descritivo a {
-        font-size: 140%;
-    }
+        .descritivo h2 {
+            font-size: 300%;
+        }
 
-    .convenios h2 {
-        font-size: 400%;
-    }
+        .descritivo p {
+            padding-bottom: 1em;
+            font-weight: 400;
+        }
+
+        .descritivo a {
+            font-size: 140%;
+        }
 
     .convenio-logo {
         width: 50%;

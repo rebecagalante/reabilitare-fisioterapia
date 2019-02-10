@@ -1,11 +1,39 @@
-﻿.equipe {
+﻿.quem-somos {
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+    .quem-somos .imagem {
+        display: none;
+        margin: 0 auto;
+    }
+
+        .quem-somos .imagem img {
+            width: 100%;
+            opacity: 0.3;
+        }
+
+    .quem-somos .descricao {
+        width: 100%;
+    }
+
+        .quem-somos .descricao p {
+            padding-bottom: 1em;
+        }
+
+.equipe-fundo {
+    background-color: #e9ecef;
+}
+
+.equipe {
     width: 80%;
     margin: 0 auto;
+    padding-top: 4em;
 }
 
     .equipe .foto {
         width: 50%;
-        margin: 1em auto;
+        margin: 0 auto 1em auto;
     }
 
         .equipe .foto img {
@@ -23,11 +51,47 @@
         }
 
 .funcionario {
+    height: 250px;
     margin: 3em auto 0;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .funcionario {
+        height: 300px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 400%;
+    }
+
+    .quem-somos {
+        height: 550px;
+        max-width: 1600px;
+    }
+
+        .quem-somos .imagem {
+            display: block;
+            width: 25%;
+            float: left;
+        }
+
+            .quem-somos .imagem img {
+                opacity: 0.2;
+            }
+
+        .quem-somos .descricao {
+            width: 70%;
+            float: right;
+            padding-right: 4em;
+            margin-top: 0;
+        }
+
+        .quem-somos p {
+            font-weight: 400;
+        }
+
     .equipe .foto {
         width: 20%;
     }
@@ -51,10 +115,31 @@
 
     .equipe .descricao-direita {
         float: right;
+        text-align: left;
     }
 
     .equipe .descricao-esquerda {
         float: left;
+        text-align: right;
+    }
+
+    .funcionario {
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .quem-somos .imagem {
+        width: 25%;
+    }
+
+    .quem-somos .descricao {
+        margin-top: 0;
+    }
+
+    .equipe .descricao span {
+        font-size: 1.5em;
     }
 
     .funcionario {
@@ -62,9 +147,23 @@
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .equipe .descricao {
-        font-size: 1.5em;
+@media only screen and (min-width: 1200px) {
+
+    .quem-somos .descricao {
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .quem-somos .imagem {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .quem-somos .descricao {
+        margin-top: 2em;
     }
 }
