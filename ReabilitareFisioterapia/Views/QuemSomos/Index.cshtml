@@ -1,62 +1,151 @@
 ﻿@{
     ViewBag.Title = "Quem Somos";
 }
+<head>
+    <link href="~/Content/QuemSomos.css" rel="stylesheet" />
+</head>
 
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+@*<div class="jumbotron padding quem-somos">
+        <div class="img"></div>
+        <div class="container container-fluid">
+            <div class="padding">
+                <h2 class="text-center">Quem Somos</h2>
+            </div>
+            <div class="descricao">
+                <p>A Reabilitare Fisioterapia é uma clínica de fisioterapia e pilates, fundada em 2016. Nós visamos proporcionar melhor qualidade de vida aos pacientes, para um dia-a-dia sem dor e recuperar movimentos e funções de regiões lesionadas.</p>
+                <br />
+                <p>Acreditamos que um tratamento fisioterapêutico personalizado e com atendimento individual seja o melhor padrão para superar as expectativas dos pacientes. Além disso, focamos na terapia manual para reparar e equilibrar o organismo na prevenção de futuras dores.</p>
+                <br />
+                <p>Para nós, comprometimento e cuidado com cada paciente são fundamentais para uma fisioterapia de excelência.</p>
+            </div>
+        </div>
+    </div>*@
 
+<div class="container quem-somos">
+    <div class="col-12">
+        <h2 class="text-center padding">Quem Somos</h2>
+    </div>
+    <div class="imagem">
+        <img src="~/Content/Images/logo_reabilitare.jpg" alt="Logo da clínica" />
+    </div>
+    <div class="descricao">
+        <p>A Reabilitare Fisioterapia é uma clínica de fisioterapia e pilates, fundada em 2016. Nós visamos proporcionar melhor qualidade de vida aos pacientes, para um dia-a-dia sem dor e recuperar movimentos e funções de regiões lesionadas.</p>
+        <br />
+        <p>Acreditamos que um tratamento fisioterapêutico personalizado e com atendimento individual seja o melhor padrão para superar as expectativas dos pacientes. Além disso, focamos na terapia manual para reparar e equilibrar o organismo na prevenção de futuras dores.</p>
+        <br />
+        <p>Para nós, comprometimento e cuidado com cada paciente são fundamentais para uma fisioterapia de excelência.</p>
+    </div>
+</div>
 
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
+<div class="equipe-fundo">
+    <div class="container equipe">
         <div class="col-12">
-            <h2 class="display-4">Conheça a Nossa Equipe</h2>
+            <h2 class="text-center">Nossa Equipe</h2>
         </div>
-        <hr />
+        <div class="funcionario">
+            <div class="foto foto-esquerda">
+                <img src="~/Content/Images/Funcionarios/Marcos_Piantino.jpg" alt="Marcos Piantino" />
+            </div>
+            <div class="descricao descricao-direita">
+                <span>Marcos Piantino</span>
+                <p>Especialista em Fisioterapia Ortopédica, Funcional e Esportiva, Pilates, Conceito Mulligan, Crochetagem, Estabilização Segmentar Vertebral e Bandagem Funcional e Rígida</p>
+            </div>
+        </div>
+        <div class="funcionario">
+            <div class="foto foto-direita">
+                <img src="~/Content/Images/Funcionarios/Guido_Agner.jpg" alt="Guido Agner" />
+            </div>
+            <div class="descricao descricao-esquerda">
+                <span>Guido Agner</span>
+                <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural, Dry Needling, Abordagem Biopsicossocial, Crochetagem e Liberação Miofacial</p>
+            </div>
+        </div>
+        <div class="funcionario">
+            <div class="foto foto-esquerda">
+                <img src="~/Content/Images/Funcionarios/Mariana_Barros.jpg" alt="Mariana Barros" />
+            </div>
+            <div class="descricao descricao-direita">
+                <span>Mariana Barros</span>
+                <p>Conceito Mulligan, Dry Needling e Abordagem Biopsicossocial</p>
+            </div>
+        </div>
+        <div class="funcionario">
+            <div class="foto foto-direita">
+                <img src="~/Content/Images/Funcionarios/Leticia_Souza.jpg" alt="Letícia Sousa" />
+            </div>
+            <div class="descricao descricao-esquerda">
+                <span>Letícia Souza</span>
+                <p>Ortopedia Esportiva e Funcional, Dry Needling e Liberação Miofacial</p>
+            </div>
+        </div>
+        <div class="funcionario">
+            <div class="foto foto-esquerda">
+                <img src="~/Content/Images/Funcionarios/Rebeca_Drudi.jpg" alt="Rebeca Drudi" />
+            </div>
+            <div class="descricao descricao-direita">
+                <span>Rebeca Drudi</span>
+                <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural e Dry Needling</p>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/chibi_sunako_logo.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>John Doe</h4>
-                    <p>Descrição sobre as especialidades do John.</p>
-                    <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                </div>
+@*
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Conheça a Nossa Equipe</h2>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/chibi_sunako_logo.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Mary Jo</h4>
-                    <p>Descrição sobre as especialidades da Mary.</p>
-                    <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/chibi_sunako_logo.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Phill Ho</h4>
-                    <p>Descrição sobre as especialidades do Phill.</p>
-                    <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="~/Content/Images/chibi_sunako_logo.jpg" alt="Alternate Text" />
-                <div class="card-body">
-                    <h4>Jane Lo</h4>
-                    <p>Descrição sobre as especialidades da Joanne.</p>
-                    <a href="#" class="btn btn-outline-secondary">Ver Perfil</a>
-                </div>
-            </div>
+            <hr />
         </div>
     </div>
-</div>
 
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Marcos_Piantino.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Marcos Piantino</h4>
+                        <p>Especialista em Fisioterapia Ortopédica, Funcional e Esportiva, Pilates, Conceito Mulligan, Crochetagem, Estabilização Segmentar Vertebral e Bandagem Funcional e Rígida</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Guido_Agner.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Guido Agner</h4>
+                        <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural, Dry Needling, Abordagem Biopsicossocial, Crochetagem e Liberação Miofacial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Leticia_Souza.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Letícia Souza</h4>
+                        <p>Ortopedia Esportiva e Funcional, Dry Needling e Liberação Miofacial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Mariana_Barros.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Mariana Barros</h4>
+                        <p>Conceito Mulligan, Dry Needling e Abordagem Biopsicossocial</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/Images/Funcionarios/Rebeca_Drudi.jpg" alt="Alternate Text" />
+                    <div class="card-body">
+                        <h4>Rebeca Drudi</h4>
+                        <p>Terapeuta Manual, Conceito Mulligan, Mobilização Neural e Dry Needling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
