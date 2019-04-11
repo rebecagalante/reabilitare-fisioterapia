@@ -8,6 +8,30 @@
     src: url(Fonts/Roboto-Condensed.ttf);
 }
 
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url(Fonts/webfonts/fa-brands-400.eot);
+    src: url(Fonts/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(Fonts/webfonts/fa-brands-400.woff2) format("woff2"), url(Fonts/webfonts/fa-brands-400.woff) format("woff"), url(Fonts/webfonts/fa-brands-400.ttf) format("truetype"), url(Font/webfonts/fa-brands-400.svg#fontawesome) format("svg");
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Solid';
+    font-style: normal;
+    font-weight: normal;
+    src: url(Fonts/webfonts/fa-solid-900.eot);
+    src: url(Fonts/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(Fonts/webfonts/fa-solid-900.woff2) format("woff2"), url(Fonts/webfonts/fa-solid-900.woff) format("woff"), url(Fonts/webfonts/fa-solid-900.ttf) format("truetype"), url(Font/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.fas {
+    font-family: 'Font Awesome 5 Solid';
+}
+
 body {
     font-family: Decker, sans-serif;
 }
