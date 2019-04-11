@@ -24,7 +24,7 @@ namespace ReabilitareFisioterapia
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/fontawesome.css",
+                      "~/Content/all.min.css",
                       "~/Content/site.css"));
 
 #if DEBUG
